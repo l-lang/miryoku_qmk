@@ -8,6 +8,6 @@ MAGIC_ENABLE = no
 GRAVE_ESCAPE_ENABLE = no
 ENCODER_MAP_ENABLE = yes
 
-CONVERT_TO=liatris
+CONVERT_TO=elite_pi
 RGB_MATRIX_ENABLE = no     # Disable keyboard RGB matrix, as it is enabled by default on rev3
 RGBLIGHT_ENABLE = no       # Disable keyboard RGB underglow
