@@ -1,0 +1,19 @@
+# Copyright 2021 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+name: 'Build 3w6 llang'
+on:
+  - workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    with:
+      keyboard: '["3w6/rev2"]'
+      alphas:   '["QWERTY"]'
+      nav:      '["invertedT"]'
+      clipboard:  '["default"]'
+      layers:   '["default"]'
+      mapping:  '["EXTENDED_THUMBS"]'
+      rules:    '["default"]'
+      custom_config: '["default"]'
+      merge:    '["default"]'
