@@ -14,6 +14,6 @@ jobs:
       clipboard:  '["default"]'
       layers:   '["default"]'
       mapping:  '["EXTENDED_THUMBS"]'
-      rules:    '["CONVERT_TO=elite_pi"]'
+      rules:    '["default"]'
       custom_config: '["default"]'
       merge:    '["default"]'
